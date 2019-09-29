@@ -16,7 +16,7 @@ Max Marschall <a href="https://twitter.com/max_l_e"><img src="https://fpommereni
 
 <a name="zielgruppe"></a>
 ## 1. Zielgruppe
-Der Workshop richtet sich an Entwickler die die Möglichkeiten des Serverless Framework OpenFaaS sowie die Teamplattform OpenFaaS Cloud kennen lernen möchten. Dieser Workshop setzt Kenntnisse im Umgang mit Docker voraus. 
+Der Workshop richtet sich an Developer und Operations gleichermaßen. Sie erleben die Möglichkeiten Container in gemanagten und skalierbaren Umgebungen zu erstellen und zu betreiben. Für den Workshop wird zwingend ein gutes Verständnis von Container-Technologien, im speziellen Docker, vorausgesetzt.
 
  <a name="themen"></a>
 ## 2. Inhalt
