@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>FP.DOS2019.BuildOutside</RootNamespace>
+    <AssemblyName>BuildOutside</AssemblyName>
+  </PropertyGroup>
+
+  
+</Project>
