@@ -51,6 +51,6 @@ Die folgende Liste gibt einen Überblick über mögliche Themen. <br/> Die entg�
 3. Teilnehmer-Voraussetzungen / Vorbereitung</br>
 [x] Notebook oder MacBook</br>
 [x] <a href="https://azure.microsoft.com/de-de/features/azure-portal/" target="_bank">Azure Account</a> mit gültiger Subsription</br>
-[x] Accounts für Github und Dockerhub</br>
+[x] Accounts für <a href="https://github.com/" target="_blank">Github</a> und <a href="https://hub.docker.com/" target="_blank"> Dockerhub</a></br>
 [x] HTTP-Testtool z.B. <a href="https://www.getpostman.com/" target="_blank">Postman</a><br />
 [x] <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> mit dem Plugin Docker (Microsoft).
