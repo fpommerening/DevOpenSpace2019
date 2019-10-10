@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: timedotnet
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: time
+  template:
+    metadata:
+      labels:
+        app: time
+    spec:
+      containers:
+      - name: timedotnet
+        image: fpommerening/docker-training:microservice.time.dotnet
+        env:
+        - name: ASPNETCORE_URLS
+          valueFrom:
+            configMapKeyRef:
+              name: timeurl
+              key: url

@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: timephp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: time
+  template:
+    metadata:
+      labels:
+        app: time
+    spec:
+      containers:
+      - name: timephp
+        image: fpommerening/docker-training:microservice.time.php
