@@ -1,0 +1,30 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: 'Build/Outside/WebApp/BuildOutside.csproj'
+    feedsToUse: 'select'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'Build/Outside/WebApp/BuildOutside.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'Build/Outside/WebApp/BuildOutside.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+    zipAfterPublish: false
+    modifyOutputPath: false
