@@ -1,10 +1,10 @@
 {
     "name": "kubernetes-typescript",
     "devDependencies": {
-        "@types/node": "^8.0.0"
+        "@types/node": "^8.10.59"
     },
     "dependencies": {
-        "@pulumi/pulumi": "^1.0.0",
-        "@pulumi/kubernetes": "^1.0.0"
+        "@pulumi/kubernetes": "^1.6.0",
+        "@pulumi/pulumi": "^1.14.0"
     }
 }
